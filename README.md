@@ -7,16 +7,17 @@ hi there ... good to see you here ... I wish I can help you step by step as I do
     python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose scikit-learn xlrd ipdb pillow lxml
 
 3. before initiating any code , please test your python environment with these lines :
-     import tensorflow as tf
-     hello = tf.constant('Hello, TensorFlow!')
-     sess = tf.Session()
-     sess.run(hello)
-          // output : 'Hello, TensorFlow!'
-     a = tf.constant(10)
-     b = tf.constant(32)
-     sess.run(a + b)
-         // output : 42
-     sess.close()
+
+>>>import tensorflow as tf
+>>>hello = tf.constant('Hello, TensorFlow!')
+>>>sess = tf.Session()
+>>>sess.run(hello)
+'Hello, TensorFlow!'
+>>>a = tf.constant(10)
+>>>b = tf.constant(32)
+>>>sess.run(a + b)
+42
+>>>sess.close()
     
 4.     
     
