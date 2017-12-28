@@ -9,14 +9,23 @@ hi there ... good to see you here ... I wish I can help you step by step as I do
 3. before initiating any code , please test your python environment with these lines :
 
 >>>import tensorflow as tf
+
 >>>hello = tf.constant('Hello, TensorFlow!')
+
 >>>sess = tf.Session()
+
 >>>sess.run(hello)
+
 'Hello, TensorFlow!'
+
 >>>a = tf.constant(10)
+
 >>>b = tf.constant(32)
+
 >>>sess.run(a + b)
+
 42
+
 >>>sess.close()
     
 4.     
