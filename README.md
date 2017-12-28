@@ -16,7 +16,7 @@ hi there ... good to see you here ... I wish I can help you step by step as I do
 
     >sess.run(hello)
 
-    'Hello, TensorFlow!'
+    OUTPUT : 'Hello, TensorFlow!'
 
     >a = tf.constant(10)
 
@@ -24,7 +24,7 @@ hi there ... good to see you here ... I wish I can help you step by step as I do
 
     >sess.run(a + b)
 
-    42
+    OUTPUT : 42
 
     >sess.close()
     
